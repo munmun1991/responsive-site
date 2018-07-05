@@ -1,0 +1,97 @@
+@import "compass";
+
+*{
+    margin:0;
+    padding:0;
+}
+
+.main-photo {
+  background-image: url("../images/ma-lion-min.jpg");
+  height: 500px;
+  width: 100%;
+  padding: 0;
+  margin:0;
+  background-size: cover;
+  background-position: center center;
+  
+  @media (max-width: 768px) {
+  height: 250px;
+  }
+}
+
+
+/* Align
+------------------------------------------------------------*/
+.text-center {
+  text-align: center;
+}
+/*------------------------------------------------------------*/
+
+.title-container{
+    
+}
+
+.paragraph-container{
+    
+}
+
+/*text-box
+------------------------------------------------------------*/
+#box h2{
+  text-align:center;
+  color:#7f7f7f;
+  padding:25px;
+}
+
+.container{
+  display:flex;
+  justify-content: space-between;
+  align-items: stretch;
+  
+  margin-bottom:50px;
+}
+
+.contents{
+    flex-grow: 1;
+    margin: 5px;
+    text-align: center;
+   h3{
+    background:#eaeaea;
+    padding:10px;
+    color:#7f7f7f;
+  }
+   h4{
+    background:#aeaeae;;
+    padding:10px;
+    height:50px;
+    color:#ffffff;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+}
+
+/*footer
+/*------------------------------------------------------------*/
+footer{
+  background:#eeeeee;
+  text-align:center;
+  padding-bottom: 75px;
+}
+#shita h4{
+  color:#7f7f7f;
+  padding:5px;
+}
+.button{
+  margin:auto;
+  display: block;
+  background-color: #aeaeae;
+  border-radius: 5px;
+  width: 180px;
+  color: #ffffff;
+  font-weight: bold;
+  text-decoration: none;
+}
